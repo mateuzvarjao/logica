@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+var chute = parseInt(prompt("Digite seu chute"));
+var numeroPensado = Math.round(Math.random() * 10);
+
+for (var chute = 1; chute <= 2; chute ++) {
+
+    if (chute == numeroPensado) {
+        mostra ("Acertou");
+        break;
+    } else {
+        parseInt(prompt("Errou, tente novamente"))
+         }
+     }
+    
+</script>

@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+	
+function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+function pulaLinha() {
+		document.write("<br")
+}
+
+
+var numeroPensado = 67;
+var chute = parseInt(prompt("Quantos gols Neymar tem pela seleção?"));
+var nomejogo = "***JOGO ADVINHE***" + "<br>" + "<br>" + "<br>";
+	
+	if(chute == numeroPensado) {
+		mostra (nomejogo + "Acertou vagabundo!");
+	} 
+	if(chute > numeroPensado) {
+		mostra (nomejogo + "Porra, tá pensando que é Pelé, é?");}
+		if(chute < numeroPensado) {
+			mostra (nomejogo + "Aí tá desfazendo do pivete")
+		}
+	
+
+</script>

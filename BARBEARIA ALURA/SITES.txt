@@ -1,0 +1,11 @@
+mobile input types
+
+serve para ver como usar os inputs
+________________________________________________________
+
+unicode-table.com
+
+caracteres diferentes
+________________________________________________________
+
+fonts.google.com

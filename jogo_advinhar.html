@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+	
+function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+function pulaLinha() {
+		document.write("<br")
+}
+
+
+var numeroPensado = Math.round(Math.random() * 10);
+var chute = parseInt(prompt("Digite seu chute!"));
+var nomejogo = "***JOGO ADVINHE***" + "<br>" + "<br>" + "<br>";
+	
+	if(chute == numeroPensado) {
+		mostra (nomejogo + "Você acertou!");
+	} else {
+		mostra (nomejogo + "Você errou! O número pensado foi " + numeroPensado);
+	}
+
+</script>
