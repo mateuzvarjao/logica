@@ -1,0 +1,45 @@
+<meta charset="UTF-8">
+
+<script>
+    
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    function dividir(a, b) {
+        return a / b;
+    }
+
+    let valores = [3,19,10,22,23,9,7,32,2,16,21,13];
+    let maior = 0;
+    let menor = valores.length;
+    
+
+
+
+
+    for (let posicao = 0; posicao < valores.length; posicao++) {
+
+        if (valores[posicao] > maior) {
+            maior = valores[posicao]
+            
+        } else if (valores[posicao] < menor) {
+            menor = valores[posicao]
+            
+        }
+
+    } 
+    
+    let media = dividir(maior, menor);
+
+    mostra ("O maior valor foi: " + maior + "<br>O menor valor foi: " + menor + "<br>");
+    mostra ("A média é: " + media + "<br>")
+    
+    for (let posicao = 0; posicao < valores.length; posicao++) {
+        if (media == valores[posicao]) {
+            mostra ("Existe um número igual na  sua lista")
+        }   
+    }  
+    
+</script>

@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoNascimento = [2008, 1987, 1982, 2009, 1990, 1977, 2010];
+
+    for (let i = 0; i < anoNascimento.length; i++) {
+
+    if (anoNascimento[i] <= 2004){
+        mostra ("Seu ano de nascimento é: " + anoNascimento[i] + " - " + "Você é maior de idade")
+    } else {
+        mostra ("Seu ano de nascimento é: " + anoNascimento[i]  + " - " + "Você não é maior de idade")
+    }
+}
+</script>

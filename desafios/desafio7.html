@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+	
+function mostra(frase) {
+		document.write(frase);
+}
+
+
+let distancia = parseInt(prompt("Qual a distância da viagem em km?"));
+let tarifa1 = 0.50 
+let tarifa2 = 0.45
+	
+	if (distancia <= 200) {
+
+		mostra("O preço da passagem é: " + distancia * tarifa1 + " reais.")
+	} else { 
+
+		mostra("O preço da passagem é: " + distancia * tarifa2 + " reais.")}
+
+</script>

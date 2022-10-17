@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+	
+function mostra(frase) {
+		document.write(frase);
+}
+
+
+let data = parseInt(prompt("Digite aqui um ano"));
+
+	
+	if (data % 4 == 0 && data % 100 != 0 || data % 400 == 0) {
+
+		mostra("O ano é Bissexto")
+	} else { 
+
+		mostra("O ano não é Bissexto")}
+
+</script>

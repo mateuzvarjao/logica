@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+	
+function mostra(frase) {
+		document.write(frase);
+		
+	}
+
+
+let numeroPensado = Math.round(Math.random() * 5);
+let chute = parseInt(prompt("Digite seu chute!"));
+let nomejogo = "***JOGO ADVINHE***" + "<br>" + "<br>" + "<br>";
+	
+	if(chute == numeroPensado) {
+		mostra (nomejogo + "Você acertou!");
+	} else {
+		mostra (nomejogo + "Você errou! O número pensado foi " + numeroPensado);
+	}
+
+</script>

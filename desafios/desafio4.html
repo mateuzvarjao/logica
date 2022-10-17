@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+    
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    let alunos = ["Ronaldo", "Ronaldinho", "Kaká", "Rivaldo", "Pelé", "Neymar"];
+    let x = Math.round(Math.random() * 5) //sorteia um número de 0 a 5
+   
+    for (let posicao = 0; posicao < alunos.length;) {
+        
+        posicao = posicao + x //soma a posição inicial (0) com o número sorteado
+        mostra(alunos[posicao]);
+        console.log(posicao) //mostra a posição do array escolhido no console
+        break;
+    }
+         
+    
+</script>
